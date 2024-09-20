@@ -1,0 +1,427 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("bg1.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    margin-top: 180px;
+    margin-bottom: 100px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    top: 10px;
+    z-index: 20;
+}
+
+.English {
+    border: 1px solid rgba(255, 255, 255, 0.644);
+    width: 130px;
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+}
+
+.English>ul{
+    display: none;
+    overflow: hidden;
+    z-index: 1;
+}
+.English:hover ul{
+    background-color: rgb(253, 253, 253);
+    padding-top: 10px;
+    color: black;
+    /* font-weight: bold; */
+    border-top: 1px solid white;
+    display: block;
+}
+.English ul li:hover{
+    background-color: rgb(70, 70, 202);
+    color: white;
+}
+
+
+
+.getStarted {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.Sign {
+    border-style: none;
+    padding: 10px;
+    width: 70px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* first tv img */
+
+
+.firstImg {
+    position: relative;
+}
+
+.firstImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.firstImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+/* second tv img */
+.secImgV {
+    position: relative;
+}
+
+.secImgV img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImgV video {
+    position: absolute;
+    top: 75px;
+    right: 100px;
+    width: 355px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+
+
+
+.hero1{
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero1  input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.hero1-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 6px auto;
+    cursor: pointer;
+}
+
+.faqbox p{
+    display: none;
+    border-top:2px solid black;
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+.faqbox:hover p{
+    display: block;
+} 
+
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+
+
+.faq h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+footer {
+    display: inline-block;
+    max-width: 90vw;
+    padding: 75px 20;
+    
+    
+}
+
+.footer-item{
+    
+    align-items: center;
+    height: 300px;
+}
+
+.foot1{
+    display: inline-block;
+    height: 200px;
+}
+.foot2{
+    position: absolute;
+    left:500px;
+    display: inline-block;
+    
+}
+
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+} 
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: left;
+    margin-left: 100px;
+}
+.English2 {
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.644);
+    width: 130px;
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+}
+
+.English2>ul{
+    display: none;
+    overflow: hidden;
+    z-index: 1;
+}
+.English2:hover ul{
+    background-color: rgb(253, 253, 253);
+    padding-top: 10px;
+    color: black;
+    /* font-weight: bold; */
+    border-top: 1px solid white;
+    display: block;
+}
+.English2 ul li:hover{
+    background-color: rgb(70, 70, 202);
+    color: white;
+}
+.india{
+    color: white;
+}
